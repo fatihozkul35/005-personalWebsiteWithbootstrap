@@ -1,0 +1,57 @@
+/****************** NAVBAR *****************************/
+
+.navbar .container-fluid .navbar-brand .fa-hand-peace {
+  color: aqua;
+}
+
+/****************** MAİN *****************************/
+/****************** SECTION-HOME *****************************/
+
+main section.home {
+  background-image: url(./assets/img/20200606_191844.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+main section.home h2 {
+  color: red;
+}
+main section.home .btn-info {
+  border: 2px solid white;
+  color: black;
+  font-weight: bold;
+}
+main section.home .btn-info:hover {
+  background-color: aqua;
+}
+
+/****************** SECTION-ABOUTME *****************************/
+
+main .aboutMe .row .col img {
+  /* background-image: url(./assets/img/Screenshot_20210428-113652_Office.jpg); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 299px;
+  height: 373px;
+}
+
+main .aboutMe .row .rightside a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+main .aboutMe .row .rightside .social {
+  display: flex;
+  gap: 1rem;
+}

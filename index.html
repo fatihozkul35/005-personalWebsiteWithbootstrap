@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal website with Boostrap</title>
 
+    <!-- ! CSS Styles -->
+
     <link rel="stylesheet" href="style.css" />
 
     <!--! Bootsrap Link -->
@@ -16,8 +18,165 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+
+    <!-- ! FONT Awesome CDN -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- ! Favicon -->
+
+    <link
+      rel="shortcut icon"
+      href="./assets/icon/house-user-solid.svg"
+      type="image/x-icon"
+    />
   </head>
   <body>
+    <!-- ! NAVBAR -->
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #e3f2fd"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><i class="far fa-hand-peace fa-4x"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fas fa-info"></i> About Me</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-tasks"></i> Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Project01</a></li>
+                  <li><a class="dropdown-item" href="#">Project02</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Project03</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  ><i class="fas fa-phone-volume"></i> Contact Me</a
+                >
+              </li>
+              <!-- Maybe this link can be activated later -->
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ! MAIN -->
+
+    <main>
+      <!-- ! SECTION HOME -->
+
+      <section
+        class="home d-flex flex-column justify-content-center align-items-center text-center lh-lg"
+      >
+        <h2>Welcome</h2>
+        <h1>Freelance Web Design</h1>
+        <p>
+          Leave your mobile device compatible web design, SEO, graphic design
+          and Wordpress jobs to the professionals.
+        </p>
+        <button
+          type="button"
+          class="btn btn-info rounded-pill w-25 border-1 m-4 p-3"
+        >
+          Get an Offer Now
+        </button>
+        <i class="fas fa-mouse fa-2x"></i>
+      </section>
+
+      <!-- ! SECTION ABOUT ME -->
+
+      <section class="aboutMe">
+        <div class="container-fluid p-5">
+          <div class="row row-cols-sm-1 row-cols-md-2">
+            <div class="col">
+              <img
+                src="./assets/img/Screenshot_20210428-113652_Office.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col">
+              <h1>Why me?</h1>
+              <h3>Hi! I'm Fatih and I'm not a Terorist</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                blanditiis quia delectus ipsam illo qui id, repellendus
+                repudiandae vel labore voluptate consequatur voluptatibus
+                impedit accusamus debitis eos at tenetur. Quod?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                blanditiis quia delectus ipsam illo qui id, repellendus
+                repudiandae vel labore voluptate consequatur voluptatibus
+                impedit accusamus debitis eos at tenetur. Quod?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                blanditiis quia delectus ipsam illo qui id, repellendus
+                repudiandae vel labore voluptate consequatur voluptatibus
+                impedit accusamus debitis eos at tenetur. Quod?
+              </p>
+              <div class="social">
+                <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
