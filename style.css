@@ -7,6 +7,9 @@
 /****************** MAİN *****************************/
 /****************** SECTION-HOME *****************************/
 
+main {
+  gap: 10vh;
+}
 main section.home {
   background-image: url(./assets/img/20200606_191844.jpg);
   background-repeat: no-repeat;
@@ -31,16 +34,10 @@ main section.home .btn-info:hover {
 
 /****************** SECTION-ABOUTME *****************************/
 
-main .aboutMe .row .col img {
-  /* background-image: url(./assets/img/Screenshot_20210428-113652_Office.jpg); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 299px;
-  height: 373px;
+main .aboutMe .container-fluid {
+  height: 100vh;
 }
-
-main .aboutMe .row .rightside a {
+/* main .aboutMe .row .middle a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,9 +46,13 @@ main .aboutMe .row .rightside a {
   width: 60px;
   height: 60px;
   border-radius: 30px;
-}
+} */
 
-main .aboutMe .row .rightside .social {
+/* main .aboutMe .row .middle .social {
   display: flex;
   gap: 1rem;
+} */
+.carousel.slide {
+  width: 30rem;
+  height: 20rem;
 }
