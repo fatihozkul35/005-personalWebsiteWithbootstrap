@@ -34,9 +34,9 @@ main section.home .btn-info:hover {
 
 /****************** SECTION-ABOUTME *****************************/
 
-main .aboutMe .container-fluid {
+/* main .aboutMe .container-fluid {
   height: 100vh;
-}
+} */
 main .aboutMe .row .middle a {
   display: flex;
   justify-content: center;
@@ -59,8 +59,4 @@ main .aboutMe .row .middle .socials {
   gap: 1rem;
 }
 
-/* .carousel-item.active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+/****************** SECTION-OUR SERVICE *****************************/
