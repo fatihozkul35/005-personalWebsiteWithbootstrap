@@ -1,7 +1,7 @@
 /****************** NAVBAR *****************************/
 
 .navbar .container-fluid .navbar-brand .fa-hand-peace {
-  color: aqua;
+  color: rgba(7, 145, 145, 0.89);
 }
 
 /****************** MAİN *****************************/
@@ -15,10 +15,13 @@ main section.home {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100vw;
+  object-fit: contain;
   height: 100vh;
   font-size: 2rem;
   color: rgb(0, 0, 0);
+}
+main section#home {
+  background-color: black;
 }
 main section.home h2 {
   color: red;
@@ -29,7 +32,7 @@ main section.home .btn-info {
   font-weight: bold;
 }
 main section.home .btn-info:hover {
-  background-color: aqua;
+  background-color: rgb(5, 116, 116);
 }
 
 /****************** SECTION-ABOUTME *****************************/
@@ -57,6 +60,28 @@ main .aboutMe .row .middle .socials {
 }
 
 /****************** SECTION-OUR SERVICE *****************************/
+
+.ourService {
+  height: 100vh;
+  position: relative;
+}
+
+.ourService .container {
+  position: absolute;
+  top: 100px;
+}
+
+/****************** SECTION - CONTACT ME ****************************/
+
+.contactMe {
+  height: 100vh;
+  position: relative;
+}
+
+.contactMe .container {
+  position: absolute;
+  top: 100px;
+}
 
 /****************** FOOTER *****************************/
 
