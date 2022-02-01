@@ -34,9 +34,6 @@ main section.home .btn-info:hover {
 
 /****************** SECTION-ABOUTME *****************************/
 
-/* main .aboutMe .container-fluid {
-  height: 100vh;
-} */
 main .aboutMe .row .middle a {
   display: flex;
   justify-content: center;
@@ -60,3 +57,34 @@ main .aboutMe .row .middle .socials {
 }
 
 /****************** SECTION-OUR SERVICE *****************************/
+
+/****************** FOOTER *****************************/
+
+footer .container-fluid {
+  height: 30vh;
+  background: rgba(10, 8, 8, 0.61);
+}
+footer .socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  color: rgb(5, 116, 116);
+}
+footer .socials a:hover {
+  color: white;
+  background-color: rgb(5, 116, 116);
+  border: 0;
+}
+
+footer .socials {
+  display: flex;
+  gap: 1rem;
+}
+footer .container-fluid p {
+  color: aliceblue;
+}
